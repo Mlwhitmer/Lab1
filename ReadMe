@@ -1,0 +1,18 @@
+Implements:
+	./hello 70 <- Will use the default cube.off, scaled by 70
+
+	./hello 70 Whatever.off <- Will load the specified model, scaled by 70.
+
+However, if no command line arguments are given the program will prompt the user as follows
+
+This document describes how to operate Lab1 if no arguments are given
+
+Step 1:
+	Enter a numerical value into the terminal corresponding to the model that is to be displayed.
+	Option 5 allows the user to enter there own OFF file location to be displayed.
+
+Step 2:
+	Program key command include the following:
+	"q": To quit the program.
+	"s": To save the framebuffer to a file called "image.ppm".
+
